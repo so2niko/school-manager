@@ -1,1 +1,4 @@
-# school-manager
+Аплікація для школярів та вчителів. 
+Органайзер уроків та списку дзвінків.
+Використовуються:
+JS, HTML, CSS, LocalStorage, Bootstrap CSS
