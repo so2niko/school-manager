@@ -1,0 +1,98 @@
+{
+    "bells" : [
+        {
+            "id" : 1,
+            "number" : "1",
+            "timeStart" : "9:00",
+            "timeEnd" : "9:45"
+        },
+        {
+            "id" : 2,
+            "number" : "2",
+            "timeStart" : "10:00",
+            "timeEnd" : "10:45"
+        },
+        {
+            "id" : 3,
+            "number" : "3",
+            "timeStart" : "11:00",
+            "timeEnd" : "11:45"
+        },
+        {
+            "id" : 4,
+            "number" : "4",
+            "timeStart" : "12:00",
+            "timeEnd" : "12:45"
+        },
+        {
+            "id" : 5,
+            "number" : "5",
+            "timeStart" : "13:00",
+            "timeEnd" : "13:45"
+        },
+        {
+            "id" : 6,
+            "number" : "6",
+            "timeStart" : "14:00",
+            "timeEnd" : "14:45"
+        },
+        {
+            "id" : 7,
+            "number" : "7",
+            "timeStart" : "15:00",
+            "timeEnd" : "15:45"
+        }
+],
+    "lessons" : [
+        {
+            "id" : "1",
+            "name" : "Англійська мова",
+            "teacher" : "Петько Іван Федорович",
+            "link1" : "https://getbootstrap.com/docs/5.2/utilities/text/#font-size",
+            "link2" : "https://github.com/so2niko/school-manager"
+        },
+        {
+            "id" : "2",
+            "name" : "Математика",
+            "teacher" : "Петько Федір Петрович",
+            "link1" : "https://getbootstrap.com/docs/5.2/utilities/text/#font-size",
+            "link2" : "https://github.com/so2niko/school-manager"
+        }
+    ],
+    "schedule" : [
+        {
+            "day" : "Понеділок",
+            "lessons" : [
+                {
+                    "bell" : "1",
+                    "lesson" : "1"
+                },
+                {
+                    "bell" : "2",
+                    "lesson" : "2"
+                },
+                {
+                    "bell" : "3",
+                    "lesson" : "1"
+                }
+            ]
+        },
+        {
+            "day" : "Вівторок",
+            "lessons" : [
+                {
+                    "bell" : "4",
+                    "lesson" : "2"
+                },
+                {
+                    "bell" : "5",
+                    "lesson" : "2"
+                },
+                {
+                    "bell" : "2",
+                    "lesson" : "1"
+                }
+            ]
+        }
+    ]
+}
