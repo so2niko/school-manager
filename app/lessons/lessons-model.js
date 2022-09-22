@@ -6,9 +6,6 @@ export default class LessonsModel{
     }
 
     loadResources(){
-        return fetch(this.dataLink).then(r => r.json()).then(d => {
-            this.data = d.lessons;
-            return this.data;
-        });
+        fetch(this.dataLink).then(r => r.json()).then(d => this.data = d.lessons);
     }
 }
