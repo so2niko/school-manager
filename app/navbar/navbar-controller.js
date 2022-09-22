@@ -1,4 +1,5 @@
 import NavbarView from "./navbar-view.js";
+import Publisher from "../publisher.js";
 
 export default class NavbarController{
     constructor(){
@@ -10,7 +11,7 @@ export default class NavbarController{
     handleClickMenu = ev => {
         const link = ev.target.dataset.link;
         if(link){
-            console.log(`TODO: click on ${ link } tab`);
+            Publisher.notify(Publisher.events.MENU, link);
             this.view.render(link);
         }
     }
