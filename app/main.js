@@ -5,7 +5,9 @@
 import BellsController from "./bells/bells-controller.js";
 import LessonsController from "./lessons/lessons-controller.js";
 import NavbarController from "./navbar/navbar-controller.js";
+import ScheduleController from "./schedule/schedule-controller.js";
 
 const navbar = new NavbarController();
+const schedule = new ScheduleController();
 const lessons = new LessonsController();
 const bells = new BellsController();
