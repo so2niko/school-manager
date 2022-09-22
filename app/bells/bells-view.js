@@ -6,13 +6,13 @@ export default class BellsView{
     }
 
     render(bells){
-        const lessonsHTML = `<table class="table table-striped">
+        const bellsHTML = `<table class="table table-striped">
         ${ bells.reduce((acc, { id, number, timeStart, timeEnd }) => {
             return (`${acc}<tr data-id="${ id }">
             <td>${ number }</td>
             <td>${ timeStart } - ${ timeEnd }</td></tr>`);
         }, '') }
         </table>`;
-        this.container.innerHTML = lessonsHTML;
+        this.container.innerHTML = bellsHTML;
     }
 }
