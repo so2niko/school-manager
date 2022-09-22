@@ -57,6 +57,13 @@
             "teacher" : "Петько Федір Петрович",
             "link1" : "https://getbootstrap.com/docs/5.2/utilities/text/#font-size",
             "link2" : "https://github.com/so2niko/school-manager"
+        },
+        {
+            "id" : "3",
+            "name" : "Історія",
+            "teacher" : "Петько Анна Федорівна",
+            "link1" : "https://getbootstrap.com/docs/5.2/utilities/text/#font-size",
+            "link2" : "https://github.com/so2niko/school-manager"
         }
     ],
     "schedule" : [
